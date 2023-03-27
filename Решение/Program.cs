@@ -34,7 +34,7 @@ string[] arr3 = {"Russia", "Denmark", "Kazan"};
         
 void PrintData(string[] array)
 {
-    Console.WriteLine("Исходный массив:");
+    Console.WriteLine("Исходный массив: ");
     Print1DArray(array);
     string[] shortArray = NewArray(array);
     Console.WriteLine();
